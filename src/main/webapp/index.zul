@@ -1,0 +1,8 @@
+<zk>
+	<window apply="org.zkoss.bind.BindComposer"
+		viewModel="@id('vm')@init('com.saifiahmada.zhs.belajar.MyViewModel')"
+		validationMessages="@id('vmsgs')">
+		<hlayout>count: <label value="@load(vm.nama)" /></hlayout>
+		<button label="Tulisa Nama" onClick="@command('cmd')"/>
+	</window>
+</zk>
